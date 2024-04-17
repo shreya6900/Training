@@ -1,0 +1,106 @@
+that calculates the factorial of a given number using a loop. The factorial of a non-negative integer n is denoted by n! and is the product of all positive integers less than or equal to n. For example, 5! = 5 × 4 × 3 × 2 × 1 = 120. Prompt the user to enter a number, then use a loop to calculate and output its factorial.
+
+
+start                                  
+input num,fact = 1
+for(int i=1;i<=num;i++)
+fact = fact *i
+i++
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+[5:44 PM] Ashu (Unverified)
+Temperature Converter:
+		Develop a temperature converter program that converts temperatures between Celsius and Fahrenheit. The program should ask the user to choose the conversion type (Celsius to Fahrenheit or Fahrenheit to Celsius) and then input the temperature value. Use a switch statement to handle the conversion type, and if-else statements to perform the actual conversion.
+		
+4, Day of the Week:
+		Write a program that prompts the user to enter a number between 1 and 7 representing a day of the week (1 for Sunday, 2 for Monday, and so on). Use a switch statement to determine the day entered by the user and output the corresponding day name. If the user enters a number outside the range of 1-7, display an error message.
+ 
+		
+BMI Calculator:
+Create a BMI (Body Mass Index) calculator program. The program should ask the user for their weight (in kilograms) and height (in meters). Then, calculate the BMI using the formula BMI = weight / (height * height). Finally, classify the BMI into categories according to the following criteria:
+Underweight: BMI < 18.5
+Normal weight: 18.5 <= BMI < 25
+Overweight: 25 <= BMI < 30
+Obese: BMI >= 30
+ 
+ 
+ 
+Factorial Calculator:
+	Write a program that calculates the factorial of a given number using a loop. The factorial of a non-negative integer n is denoted by n! and is the product of all positive integers less than or equal to n. For example, 5! = 5 × 4 × 3 × 2 × 1 = 120. Prompt the user to enter a number, then use a loop to calculate and output its factorial.
+ 
+Number Guessing Game:
+	Develop a number guessing game where the program randomly generates a number between 1 and 100. The user has to guess the number, and the program provides feedback (higher, lower, or correct) after each guess. Use a loop to allow the user to keep guessing until they correctly guess the number.
+ 
+3, Prime Number Generator:
+		Create a program that generates and displays all prime numbers within a specified range (e.g., between 1 and 100). Use nested loops to iterate through each number in the range and determine if it's a prime number. A prime number is a whole number greater than 1 that has no positive divisors other than 1 and itself.
+ 
+Fibonacci Sequence Generator:
+		Write a program to generate the Fibonacci sequence up to a specified number of terms. The Fibonacci sequence starts with 0 and 1, and each subsequent number is the sum of the two preceding numbers (0, 1, 1, 2, 3, 5, 8, 13, ...). Prompt the user to enter the number of terms they want to generate and use a loop to calculate and output the sequence.
+ 
+		
+Palindrome Checker:
+		Develop a program that checks whether a given string is a palindrome or not. A palindrome is a word, phrase, number, or other sequence of characters that reads the same backward as forward (e.g., "radar" or "madam"). Prompt the user to enter a string, then use a loop to compare characters from the beginning and end of the string to determine if it's a palindrome.
+
+
+
+
+
+Voting Eligibility Checker:
+   Create a program that determines whether a person is eligible to vote in an election based on the following criteria:
+Age must be 18 or above.
+Must be a citizen of the country.
+Prompt the user to input their age, citizenship status (yes/no), and felony status (yes/no), and then use complex logical expressions to determine and output whether they are eligible to vote.
+ 
+Credit Card Approval System:
+		Design a program that evaluates whether a person is approved for a credit card based on the following criteria:
+Minimum credit score requirement: 700
+Maximum debt-to-income ratio: 30%
+No recent bankruptcies (within the last 5 years)
+Prompt the user to input their credit score, debt amount, income amount, and bankruptcy status, then use complex logical expressions to determine and output whether they are approved for the credit card.
+ 
+		
+Employee Promotion Criteria:
+Develop a program that assesses whether an employee is eligible for a promotion based on the following criteria:
+Must have worked for the company for at least 5 years.
+Must have a performance rating of "excellent."
+Must have completed at least one advanced training program.
+Prompt the user to input their years of service, performance rating, and training status, then use complex logical expressions to determine and output whether they are eligible for promotion.
+ 
+Product Discount Calculator:
+Write a program that calculates the discount amount for a product based on the following criteria:
+If the product price is over $100 and the customer is a premium member, they get a 20% discount.
+If the product price is over $100 and the customer is not a premium member, they get a 10% discount.
+If the product price is $100 or less, there is no discount.
+Prompt the user to input the product price and their premium membership status, then use complex logical expressions to calculate and output the discount amount.
+ 
+Health Insurance Plan Eligibility:
+	Design a program that determines whether a person is eligible for a particular health insurance plan based on the following criteria:
+Age must be between 18 and 65.
+Must not have any pre-existing medical conditions.
+Must not have any recent hospitalizations (within the last 6 months).
+Prompt the user to input their age, medical condition status, and hospitalization status, then use complex logical expressions to determine and output whether they are eligible for the insurance plan.
+
+
+
+
+
+
+
+
+
+
+
+
+
