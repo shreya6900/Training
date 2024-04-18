@@ -1,0 +1,74 @@
+class Movie 
+{
+	public static void main(String[] args) 
+	{
+        Scanner s=new Scanner(System.in);
+		System.out.println("**menu*");
+		System.out.println("1.3dmovie");
+		System.out.println("2regular movie");
+		System.out.println("enter age");
+		int age=s.nextInt();
+		System.out.println("enter movie type");
+		String movietype=s.next();
+		
+		switch(movietype){
+			case "regular":if(age<18)
+			{
+				System.out.println("cost is 8 rupees");
+			}
+                else if(age>=18){
+					System.out.println("cost is 12 rupeese");
+				}
+			
+			break;
+			case "3d":if(age<18)
+			{
+				System.out.println("cost is 10 rupees");
+			}
+                else if(age<=18){
+					System.out.println("cost is 15 rupeese");
+				}
+			break;
+		}
+	}
+}
+
+
+
+
+
+
+import java.util.Scanner;
+class grade 
+{
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+       System.out.println("enter student marks");
+	   int marks=s.nextInt();
+	   if(marks>=90&&marks<=100)
+		{
+		   System.out.println("A grade");
+		}
+		else if(marks>=80&&marks<=89)
+		{
+		   System.out.println("B grade");
+		}
+		else if(marks>=70&&marks<=79)
+		{
+		   System.out.println("C grade");
+		}
+		else if(marks>=60&&marks<=69)
+		{
+		   System.out.println("D grade");
+		}
+		else if(marks<60)
+		{
+			System.out.println("failed");
+		}
+		else
+		{
+			System.out.println("Error message");
+		}
+	}
+}
